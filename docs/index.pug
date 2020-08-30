@@ -8,13 +8,60 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <meta name="Keywords" content="Слайдер, MVP, MVC">
     <meta name="description" content="Тестовое задание FSD - Слайдер с архитектурой MVP">
-  <link href="./main.8f968bf47809c5bb5eea.css" rel="stylesheet"></head>
+  <link href="./main.257c4f87879088a0a527.css" rel="stylesheet"></head>
   <title>
   </title>
   <body>   
     <h1 class="index__h1">Слайдер</h1>
     <div class="slider">
-      <div class="slider__track"> </div>
+      <div class="slider__track"></div>
+      <div class="slider__input-group">
+        <fieldset class="slider__fieldset slider__input-numbers">
+          <legend class="slider__legend">Ввод и настройки</legend>
+          <ul class="slider__ul" role="none">
+            <li class="slider__li">
+              <label class="slider__label">Значение 
+                <input class="slider__input slider__input-value" type="number">
+              </label>
+            </li>
+            <li class="slider__li">
+              <label class="slider__label">Мин 
+                <input class="slider__input slider__min-value" type="number">
+              </label>
+            </li>
+            <li class="slider__li">
+              <label class="slider__label">Макс 
+                <input class="slider__input slider__max-value" type="number">
+              </label>
+            </li>
+            <li class="slider__li">
+              <label class="slider__label">Шаг 
+                <input class="slider__input slider__step-value" type="number">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="slider__fieldset slider__checkboxes">
+          <legend class="slider__legend">Опции </legend>
+          <ul class="slider__ul" role="none">
+            <li class="slider__li">
+              <label class="slider__label">Вид 
+                <input class="slider__input slider__view" type="checkbox">
+              </label>
+            </li>
+            <li class="slider__li">
+              <label class="slider__label">Интервал 
+                <input class="slider__input slider__between" type="checkbox">
+              </label>
+            </li>
+            <li class="slider__li">
+              <label class="slider__label">Лэйбл 
+                <input class="slider__input slider__input-label" type="checkbox">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
     </div>
-  <script type="text/javascript" src="./vendors-8f968bf47809c5bb5eea.js"></script><script type="text/javascript" src="./main-8f968bf47809c5bb5eea.js"></script></body>
+  <script type="text/javascript" src="./vendors-257c4f87879088a0a527.js"></script><script type="text/javascript" src="./main-257c4f87879088a0a527.js"></script></body>
 </html>
