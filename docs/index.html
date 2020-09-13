@@ -8,7 +8,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <meta name="Keywords" content="Слайдер, MVP, MVC">
     <meta name="description" content="Тестовое задание FSD - Слайдер с архитектурой MVP">
-  <link href="./main.1cb9b1ee87df52e7662a.css" rel="stylesheet"></head>
+  <link href="./main.e2c52198f79007408e16.css" rel="stylesheet"></head>
   <title>
   </title>
   <body>   
@@ -17,7 +17,7 @@
       <div class="slider__out-label">          </div>
       <div class="slider__element js-slider__element">       
         <div class="slider__track js-slider__track"> 
-          <div class="slider__thumb js-slider__thumb slider__thumb_single-horizontal" draggable="true"></div>
+          <div class="slider__thumb js-slider__thumb slider__thumb_single-horizontal"></div>
           <div class="slider__thumb js-slider__thumb-two -hidden-"></div>
           <button class="slider__button slider__button_open js-slider__button_open -hidden-">O</button>
         </div>
@@ -28,8 +28,9 @@
           <legend class="slider__legend">Ввод и настройки</legend>
           <ul class="slider__ul js-slider__ul" role="none">
             <li class="slider__li">
-              <label class="slider__label">Значение 
-                <input class="slider__input slider__input-value js-slider__input-value" type="number">
+              <label class="slider__label slider__label-input-value">Значение 
+                <input class="slider__input slider__input-value js-slider__input-value1" type="number"><span class="js-slider__hyphen-between-input -hidden-">-</span>
+                <input class="slider__input slider__input-value js-slider__input-value2 -hidden-" type="number">
               </label>
             </li>
             <li class="slider__li">
@@ -53,23 +54,23 @@
           <legend class="slider__legend">Опции </legend>
           <ul class="slider__ul js-slider__ul" role="none">
             <li class="slider__li">
-              <label class="slider__label">Вид 
+              <label class="slider__label">Вертикал. 
                 <input class="slider__input slider__checkbox-view js-slider__checkbox-view" type="checkbox">
               </label>
             </li>
             <li class="slider__li">
-              <label class="slider__label">Интервал 
+              <label class="slider__label">Диапазон 
                 <input class="slider__input slider__range js-slider__range" type="checkbox">
               </label>
             </li>
             <li class="slider__li">
               <label class="slider__label">Лэйбл 
-                <input class="slider__input slider__input-label" type="checkbox">
+                <input class="slider__input slider__input-label js-slider__label" type="checkbox">
               </label>
             </li>
           </ul>
         </fieldset>
       </div>
     </div>
-  <script type="text/javascript" src="./vendors-1cb9b1ee87df52e7662a.js"></script><script type="text/javascript" src="./main-1cb9b1ee87df52e7662a.js"></script></body>
+  <script type="text/javascript" src="./vendors-e2c52198f79007408e16.js"></script><script type="text/javascript" src="./main-e2c52198f79007408e16.js"></script></body>
 </html>
