@@ -8,18 +8,22 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <meta name="Keywords" content="Слайдер, MVP, MVC">
     <meta name="description" content="Тестовое задание FSD - Слайдер с архитектурой MVP">
-  <link href="./main.4e5d553cc768c89a026b.css" rel="stylesheet"></head>
+  <link href="./main.4214969bcab44515964f.css" rel="stylesheet"></head>
   <title>
   </title>
-  <body>   
+  <body id="body">
     <h1 class="index__h1">Слайдер</h1>
     <div class="slider js-slider" id="slider">
       <div class="slider__out-label">          </div>
       <div class="slider__element js-slider__element">       
         <div class="slider__track js-slider__track"> 
-          <div class="slider__thumb js-slider__thumb slider__thumb_single-horizontal"></div>
-          <div class="slider__thumb js-slider__thumb-two -hidden-"></div>
-          <button class="slider__button slider__button_open js-slider__button_open -hidden-">O</button>
+          <div class="slider__thumb js-slider__thumb slider__thumb_single-horizontal">
+            <div class="slider__info-label js-slider__info-label1"></div>
+          </div>
+          <div class="slider__thumb js-slider__thumb-two -hidden-">
+            <div class="slider__info-label js-slider__info-label2"></div>
+          </div>
+          <button class="slider__button slider__button_open js-slider__button_open -hidden-">O        </button>
         </div>
       </div>
       <div class="slider__input-group js-slider__input-group">
@@ -29,8 +33,8 @@
           <ul class="slider__ul js-slider__ul" role="none">
             <li class="slider__li">
               <label class="slider__label slider__label-input-value">Значение 
-                <input class="slider__input slider__input-value js-slider__input-value1" type="number"><span class="js-slider__hyphen-between-input -hidden-">-</span>
-                <input class="slider__input slider__input-value js-slider__input-value2 -hidden-" type="number">
+                <input class="slider__input slider__input-value1" type="number"><span class="slider__hyphen-between-input -hidden-">-</span>
+                <input class="slider__input slider__input-value2 -hidden-" type="number">
               </label>
             </li>
             <li class="slider__li">
@@ -60,7 +64,7 @@
             </li>
             <li class="slider__li">
               <label class="slider__label">Диапазон 
-                <input class="slider__input slider__range js-slider__range" type="checkbox">
+                <input class="slider__input slider__range js-slider__range" id="range" type="checkbox">
               </label>
             </li>
             <li class="slider__li">
@@ -68,9 +72,14 @@
                 <input class="slider__input slider__input-label js-slider__label" type="checkbox">
               </label>
             </li>
+            <li class="slider__li">
+              <label class="slider__label">Шкала 
+                <input class="slider__input slider__checkbox-scale" type="checkbox" checked>
+              </label>
+            </li>
           </ul>
         </fieldset>
       </div>
     </div>
-  <script type="text/javascript" src="./vendors-4e5d553cc768c89a026b.js"></script><script type="text/javascript" src="./main-4e5d553cc768c89a026b.js"></script></body>
+  <script type="text/javascript" src="./vendors-4214969bcab44515964f.js"></script><script type="text/javascript" src="./main-4214969bcab44515964f.js"></script></body>
 </html>
